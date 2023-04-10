@@ -1,0 +1,33 @@
+.nav{
+    margin: 0.5rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    /* margin-left: 4rem; */
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pages ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.pages ul li{
+    margin-left: 40px;
+}
+
+.pages :nth-child(5){
+    border: 1px solid #F48850;
+    color: #F48850;
+    padding: 3px 20px;
+    border-radius: 6px;
+}

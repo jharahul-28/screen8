@@ -1,0 +1,52 @@
+.aboutHeading {
+    text-align: center;
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: 4rem;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 4rem;
+    column-gap: 8rem;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.aboutButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #F48850;
+}
+
+.aboutButton p {
+    width: fit-content;
+    border: 1px solid #F48850;
+    font-size: 20px;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+
+.aboutButton {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.aboutPic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.picBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    margin: 1rem 0;
+}

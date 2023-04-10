@@ -1,0 +1,16 @@
+.heroSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.content{
+    width: 30vw;
+}
+
+.content p:nth-child(1){
+    font-size: 45px;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,49 @@
+.numberHeading{
+    margin-top: 5rem;
+}
+
+.nHHeading {
+    text-align: center;
+}
+
+.nHHeading {
+    font-size: 45px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 1rem;
+    margin-left: 2rem;
+}
+
+.individualNumber {
+    margin: 5rem 3rem;
+    text-align: center;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 112%;
+    letter-spacing: -0.06em;
+    border-bottom: 2px solid #F48850;
+}
+
+.numberDescription{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 112%;
+    margin-top: 1rem;
+}
+
+.content img{
+    margin-right: 5rem;
+}
